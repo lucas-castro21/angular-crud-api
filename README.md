@@ -342,3 +342,22 @@ Antes de enviar, verifique se:
 * As alterações foram enviadas para o GitHub.
 
 Bom trabalho!
+
+## Testes realizados no Postman
+
+Foi criada uma coleção de testes para verificar os cinco
+endpoints disponibilizados pela API.
+
+Os testes foram executados com sucesso:
+
+| Operação | Método HTTP | Status |
+|---|---|---|
+| Listar produtos | GET | 200 OK |
+| Buscar produto por ID | GET | 200 OK |
+| Cadastrar produto | POST | 201 Created |
+| Atualizar produto | PUT | 200 OK |
+| Excluir produto | DELETE | 204 No Content |
+
+A coleção exportada do Postman está disponível em:
+
+`postman/postman-collection.json`
