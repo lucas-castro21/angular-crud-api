@@ -33,8 +33,7 @@
       </article>
     </div>
   </div>
-
-  <div *ngIf="!carregando && produtos.length === 0" class="alert alert-info">
+  <div *ngIf="!carregando && !mensagemErro && produtos.length === 0" class="alert alert-info">
     Nenhum produto cadastrado no momento.
   </div>
 </div>
